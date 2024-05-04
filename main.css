@@ -1,0 +1,168 @@
+@font-face {
+    font-family: Splatoon1;
+    src: url(assets/Splatoon1.otf);
+}
+
+@font-face {
+    font-family: Splatoon2;
+    src: url(assets/Splatoon2.otf);
+}
+
+body {
+    background: rgba(76, 175, 80, 0.0);
+}
+
+div.base1 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 693px;
+    height: 1080px;
+}
+
+div.base1 > .background {
+    position: absolute;
+    height: 100%;
+	width: 100%;
+    background-color: rgb(48, 48, 48);
+	border-radius: 0px;
+}
+
+div.base2 {
+    position: absolute;
+    left: 693px;
+    top: 690px;
+    width: 828px;
+    height: 390px;
+}
+
+div.base2 > .background {
+    position: absolute;
+    height: 100%;
+	width: 100%;
+    background-color: rgb(48, 48, 48);
+	border-radius: 0px;
+}
+
+div.base4 {
+    position: absolute;
+    left: 1521px;
+    top: 690px;
+    width: 399px;
+    height: 390px;
+}
+
+div.base4 > .background {
+    position: absolute;
+    height: 100%;
+	width: 100%;
+    background-color: rgb(56, 56, 56);
+	border-radius: 0px;
+}
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #ffcc00; 
+    overflow-x: hidden;
+    padding-top: 40px;
+    transition: 0.5s; 
+}
+
+.loss {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    background-color: #962613; 
+    overflow-x: hidden;
+    padding-top: 40px;
+    transition: 0.5s; 
+}
+
+.currbox {
+    margin-left: 32px;
+    margin-top: 25px;
+    width: 430px;
+    height: 43px;
+    font-size: 32px;
+    text-align: center;
+    top: 10px;
+    padding: 5px;
+    background-color: #ffcc0000;
+    color: white;
+    border: 0px
+}
+
+img.wep1 {
+    padding-left: 16px;
+    height: 100px;
+    width: 100px;
+    opacity: 30%;
+}
+
+img.wep2 {
+    padding-left: 16px;
+    height: 100px;
+    width: 100px;
+    opacity: 100%;
+}
+
+.win {
+    position: absolute;
+    top: 100px;
+    left: 40px;
+    background-color: #61c23a;
+    padding: 10px 30px;
+    border: 0px;
+    border-radius: 4px;
+}
+
+.win:active {
+    background-color: #3e8f1e;
+}
+
+.lose {
+    position: absolute;
+    top: 100px;
+    left: 220px;
+    background-color: #971f1f;
+    padding: 10px 30px;
+    border: 0px;
+    border-radius: 4px;
+}
+
+.lose:active {
+    background-color: #690a0a;
+}
+
+.update {
+    position: absolute;
+    top: 100px;
+    left: 400px;
+    background-color: #3a5ac2;
+    padding: 10px 30px;
+    border: 0px;
+    border-radius: 4px;
+}
+
+.update:active {
+    background-color: #1e4b8f;
+}
+
+.retry {
+    background-color: #3a5ac2;
+    padding: 10px 30px;
+    border: 0px;
+    border-radius: 4px;
+}
+
+.retry:active {
+    background-color: #1e4b8f;
+}
