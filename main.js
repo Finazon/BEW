@@ -104,9 +104,8 @@ function barTwo(){
     `
 }
 
-
 function barTre(){
-    document.getElementById("sidebar").style.backgroundColor = "#2c6b9c"
+    document.getElementById("sidebar").style.backgroundColor = "#469c2c"
     document.getElementById("sidebar").innerHTML = `
         <img class="wep${localStorage.getItem("Ballpoint Splatling")}" src="Weapons s3/Ballpoint Splatling.png" />
         <img class="wep${localStorage.getItem("Ballpoint Splatling Nouveau")}" src="Weapons s3/Ballpoint Splatling Nouveau.png" />
