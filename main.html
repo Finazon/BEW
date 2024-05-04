@@ -9,7 +9,7 @@
     <div class="loss" id="loss">
       <center>
         <h1>GAME OVER</h1>
-        <input type="button" class="retry" onclick="start()" value="retry?">
+        <input type="button" class="retry" onclick="resetTrack();localStorage.setItem('health', 3);localStorage.setItem('regain', 0);localStorage.setItem('remain', 120);document.getElementById('loss').style.width = '0px';" value="retry?">
       </center>
     </div>
     <div class="base1">
@@ -21,8 +21,8 @@
         <p style="color:white;font-family:Splatoon2;font-size:45px;position:absolute;left:12px;top:650px">Must be done in SoloQ Open</p>
         <p style="color:white;font-family:Splatoon2;font-size:45px;position:absolute;left:12px;top:730px">Must be done completely live</p>
         <p style="color:white;font-family:Splatoon2;font-size:45px;position:absolute;left:12px;top:810px">Only 3 lives; but 5 straight wins</p>
-        <p style="color:white;font-family:Splatoon2;font-size:45px;position:absolute;left:12px;top:870px">refill a life (3 lives MAX)</p>
-        <p style="color:white;font-family:Splatoon2;font-size:45px;position:absolute;left:12px;top:950px">Win ONCE with EVERY weapon</p>
+        <p style="color:white;font-family:Splatoon2;font-size:45px;position:absolute;left:12px;top:864px">refill a life (3 lives MAX)</p>
+        <p style="color:white;font-family:Splatoon2;font-size:45px;position:absolute;left:12px;top:944px;">Win ONCE with EVERY weapon</p>
         <div id="sidebar" class="sidebar">
         </div>
       </div>

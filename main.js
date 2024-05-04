@@ -4,7 +4,7 @@ function start(){
         localStorage.setItem("health", 3)
         localStorage.setItem("regain", 0)
         localStorage.setItem("remain", 120)
-        document.getElementById("loss").style.width = "0";
+        document.getElementById("loss").style.width = "0px";
     }
     blocks();
     updateHealth();
@@ -162,10 +162,10 @@ function barFve(){
         <img class="wep${localStorage.getItem("Heavy Edit Splatling")}" src="Weapons s3/Heavy Edit Splatling.png" />
         <img class="wep${localStorage.getItem("Hydra Splatling")}" src="Weapons s3/Hydra Splatling.png" />
         <img class="wep${localStorage.getItem("Mini Splatling")}" src="Weapons s3/Mini Splatling.png" />
-        <img class="wep${localStorage.getItem("Zink Mini Splatling.")}" src="Weapons s3/Zink Mini Splatling.png" />
+        <img class="wep${localStorage.getItem("Zink Mini Splatling")}" src="Weapons s3/Zink Mini Splatling.png" />
         <img class="wep${localStorage.getItem("Nautilus 47")}" src="Weapons s3/Nautilus 47.png" />
         <img class="wep${localStorage.getItem("Nautilus 79")}" src="Weapons s3/Nautilus 79.png" />
-        <img class="wep${localStorage.getItem("REEF-LUX 450.png")}" src="Weapons s3/REEF-LUX 450.png" />
+        <img class="wep${localStorage.getItem("REEF-LUX 450")}" src="Weapons s3/REEF-LUX 450.png" />
         <img class="wep${localStorage.getItem("REEF-LUX 450 Deco")}" src="Weapons s3/REEF-LUX 450 Deco.png" />
         <img class="wep${localStorage.getItem("Tri-Stringer")}" src="Weapons s3/Tri-Stringer.png" />
         <img class="wep${localStorage.getItem("Inkline Tri-Stringer")}" src="Weapons s3/Inkline Tri-Stringer.png" />
@@ -385,7 +385,7 @@ function resetTrack(){
     localStorage.setItem("Heavy Edit Splatling", "1")
     localStorage.setItem("Heavy Splatling Deco", "1")
     localStorage.setItem("Heavy Splatling", "1")
-    localStorage.setItem("Hero Shot Replica", "1")
+    localStorage.setItem("Hydra Splatling", "1")
     localStorage.setItem("Inkbrush Nouveau", "1")
     localStorage.setItem("Inkbrush", "1")
     localStorage.setItem("Inkline Tri-Stringer", "1")
@@ -415,7 +415,7 @@ function resetTrack(){
     localStorage.setItem("Rapid Blaster", "1")
     localStorage.setItem("Recycled Brella 24 Mk I", "1")
     localStorage.setItem("REEF-LUX 450", "1")
-    localStorage.setItem("REEFLUX-450 Deco", "1")
+    localStorage.setItem("REEF-LUX 450 Deco", "1")
     localStorage.setItem("S-Blast '91", "1")
     localStorage.setItem("S-Blast '92", "1")
     localStorage.setItem("Slosher Deco", "1")
