@@ -29,15 +29,7 @@ function blocks(){
     setTimeout(openbar, 140000)
     setTimeout(barFor, 155000)
     setTimeout(closebar, 170000)
-    setTimeout(barFve, 171000)
-    setTimeout(openbar, 185000)
-    setTimeout(barFve, 200000)
-    setTimeout(closebar, 215000)
-    setTimeout(barSix, 216000)
-    setTimeout(openbar, 230000)
-    setTimeout(barSix, 245000)
-    setTimeout(closebar, 260000)
-    setTimeout(blocks, 270000)
+    setTimeout(blocks, 180000)
 }
 
 function barOne(){
@@ -71,32 +63,14 @@ function barOne(){
         <img class="wep${localStorage.getItem("H-3 Nozzlenose D")}" src="Weapons s3/H-3 Nozzlenose D.png" />
         <img class="wep${localStorage.getItem("L-3 Nozzlenose")}" src="Weapons s3/L-3 Nozzlenose.png" />
         <img class="wep${localStorage.getItem("L-3 Nozzlenose D")}" src="Weapons s3/L-3 Nozzlenose D.png" />
+        <img class="wep${localStorage.getItem("Splatana Stamper")}" src="Weapons s3/Splatana Stamper.png" />
+        <img class="wep${localStorage.getItem("Splatana Stamper Nouveau")}" src="Weapons s3/Splatana Stamper Nouveau.png" />
+        <img class="wep${localStorage.getItem("Splatana Wiper")}" src="Weapons s3/Splatana Wiper.png" />
+        <img class="wep${localStorage.getItem("Splatana Wiper Deco")}" src="Weapons s3/Splatana Wiper Deco.png" />
     `
 }
 
 function barTwo(){
-    document.getElementById("sidebar").style.backgroundColor = "#ba741f"
-    document.getElementById("sidebar").innerHTML = `
-        <img class="wep${localStorage.getItem("Big Swig Roller")}" src="Weapons s3/Big Swig Roller.png" />
-        <img class="wep${localStorage.getItem("Big Swig Roller Express")}" src="Weapons s3/Big Swig Roller Express.png" />
-        <img class="wep${localStorage.getItem("Carbon Roller")}" src="Weapons s3/Carbon Roller.png" />
-        <img class="wep${localStorage.getItem("Carbon Roller Deco")}" src="Weapons s3/Carbon Roller Deco.png" />
-        <img class="wep${localStorage.getItem("Dynamo Roller")}" src="Weapons s3/Dynamo Roller.png" />
-        <img class="wep${localStorage.getItem("Gold Dynamo Roller")}" src="Weapons s3/Gold Dynamo Roller.png" />
-        <img class="wep${localStorage.getItem("Splat Roller")}" src="Weapons s3/Splat Roller.png" />
-        <img class="wep${localStorage.getItem("Krak-On Splat Roller")}" src="Weapons s3/Krak-On Splat Roller.png" />
-        <img class="wep${localStorage.getItem("Flingza Roller")}" src="Weapons s3/Flingza Roller.png" />
-        <img class="wep${localStorage.getItem("Foil Flingza Roller")}" src="Weapons s3/Foil Flingza Roller.png" />
-        <img class="wep${localStorage.getItem("Inkbrush")}" src="Weapons s3/Inkbrush.png" />
-        <img class="wep${localStorage.getItem("Inkbrush Nouveau")}" src="Weapons s3/Inkbrush Nouveau.png" />
-        <img class="wep${localStorage.getItem("Octobrush")}" src="Weapons s3/Octobrush.png" />
-        <img class="wep${localStorage.getItem("Octobrush Nouveau")}" src="Weapons s3/Octobrush Nouveau.png" />
-        <img class="wep${localStorage.getItem("Painbrush")}" src="Weapons s3/Painbrush.png" />
-        <img class="wep${localStorage.getItem("Painbrush Nouveau")}" src="Weapons s3/Painbrush Nouveau.png" />
-    `
-}
-
-function barTre(){
     document.getElementById("sidebar").style.backgroundColor = "#b6b23c"
     document.getElementById("sidebar").innerHTML = `
         <img class="wep${localStorage.getItem("Blaster")}" src="Weapons s3/Blaster.png" />
@@ -130,29 +104,8 @@ function barTre(){
     `
 }
 
-function barFor(){
-    document.getElementById("sidebar").style.backgroundColor = "#2c9b27"
-    document.getElementById("sidebar").innerHTML = `
-        <img class="wep${localStorage.getItem("Bloblobber")}" src="Weapons s3/Bloblobber.png" />
-        <img class="wep${localStorage.getItem("Bloblobber Deco")}" src="Weapons s3/Bloblobber Deco.png" />
-        <img class="wep${localStorage.getItem("Dread Wringer")}" src="Weapons s3/Dread Wringer.png" />
-        <img class="wep${localStorage.getItem("Dread Wringer D")}" src="Weapons s3/Dread Wringer D.png" />
-        <img class="wep${localStorage.getItem("Explosher")}" src="Weapons s3/Explosher.png" />
-        <img class="wep${localStorage.getItem("Custom Explosher")}" src="Weapons s3/Custom Explosher.png" />
-        <img class="wep${localStorage.getItem("Slosher")}" src="Weapons s3/Slosher.png" />
-        <img class="wep${localStorage.getItem("Slosher Deco")}" src="Weapons s3/Slosher Deco.png" />
-        <img class="wep${localStorage.getItem("Sloshing Machine")}" src="Weapons s3/Sloshing Machine.png" />
-        <img class="wep${localStorage.getItem("Sloshing Machine Neo")}" src="Weapons s3/Sloshing Machine Neo.png" />
-        <img class="wep${localStorage.getItem("Tri-Slosher")}" src="Weapons s3/Tri-Slosher.png" />
-        <img class="wep${localStorage.getItem("Tri-Slosher Nouveau")}" src="Weapons s3/Tri-Slosher Nouveau.png" />
-        <img class="wep${localStorage.getItem("Splatana Stamper")}" src="Weapons s3/Splatana Stamper.png" />
-        <img class="wep${localStorage.getItem("Splatana Stamper Nouveau")}" src="Weapons s3/Splatana Stamper Nouveau.png" />
-        <img class="wep${localStorage.getItem("Splatana Wiper")}" src="Weapons s3/Splatana Wiper.png" />
-        <img class="wep${localStorage.getItem("Splatana Wiper Deco")}" src="Weapons s3/Splatana Wiper Deco.png" />
-    `
-}
 
-function barFve(){
+function barTre(){
     document.getElementById("sidebar").style.backgroundColor = "#2c6b9c"
     document.getElementById("sidebar").innerHTML = `
         <img class="wep${localStorage.getItem("Ballpoint Splatling")}" src="Weapons s3/Ballpoint Splatling.png" />
@@ -169,11 +122,29 @@ function barFve(){
         <img class="wep${localStorage.getItem("REEF-LUX 450 Deco")}" src="Weapons s3/REEF-LUX 450 Deco.png" />
         <img class="wep${localStorage.getItem("Tri-Stringer")}" src="Weapons s3/Tri-Stringer.png" />
         <img class="wep${localStorage.getItem("Inkline Tri-Stringer")}" src="Weapons s3/Inkline Tri-Stringer.png" />
+        <img class="wep${localStorage.getItem("Bloblobber")}" src="Weapons s3/Bloblobber.png" />
+        <img class="wep${localStorage.getItem("Bloblobber Deco")}" src="Weapons s3/Bloblobber Deco.png" />
+        <img class="wep${localStorage.getItem("Dread Wringer")}" src="Weapons s3/Dread Wringer.png" />
+        <img class="wep${localStorage.getItem("Dread Wringer D")}" src="Weapons s3/Dread Wringer D.png" />
+        <img class="wep${localStorage.getItem("Explosher")}" src="Weapons s3/Explosher.png" />
+        <img class="wep${localStorage.getItem("Custom Explosher")}" src="Weapons s3/Custom Explosher.png" />
+        <img class="wep${localStorage.getItem("Slosher")}" src="Weapons s3/Slosher.png" />
+        <img class="wep${localStorage.getItem("Slosher Deco")}" src="Weapons s3/Slosher Deco.png" />
+        <img class="wep${localStorage.getItem("Sloshing Machine")}" src="Weapons s3/Sloshing Machine.png" />
+        <img class="wep${localStorage.getItem("Sloshing Machine Neo")}" src="Weapons s3/Sloshing Machine Neo.png" />
+        <img class="wep${localStorage.getItem("Tri-Slosher")}" src="Weapons s3/Tri-Slosher.png" />
+        <img class="wep${localStorage.getItem("Tri-Slosher Nouveau")}" src="Weapons s3/Tri-Slosher Nouveau.png" />
+        <img class="wep${localStorage.getItem("Inkbrush")}" src="Weapons s3/Inkbrush.png" />
+        <img class="wep${localStorage.getItem("Inkbrush Nouveau")}" src="Weapons s3/Inkbrush Nouveau.png" />
+        <img class="wep${localStorage.getItem("Octobrush")}" src="Weapons s3/Octobrush.png" />
+        <img class="wep${localStorage.getItem("Octobrush Nouveau")}" src="Weapons s3/Octobrush Nouveau.png" />
+        <img class="wep${localStorage.getItem("Painbrush")}" src="Weapons s3/Painbrush.png" />
+        <img class="wep${localStorage.getItem("Painbrush Nouveau")}" src="Weapons s3/Painbrush Nouveau.png" />
     `
 }
 
-function barSix(){
-    document.getElementById("sidebar").style.backgroundColor = "#6a1fa5"
+function barFor(){
+    document.getElementById("sidebar").style.backgroundColor = "#2c6b9c"
     document.getElementById("sidebar").innerHTML = `
         <img class="wep${localStorage.getItem("Dapple Dualies")}" src="Weapons s3/Dapple Dualies.png" />
         <img class="wep${localStorage.getItem("Dapple Dualies Nouveau")}" src="Weapons s3/Dapple Dualies Nouveau.png" />
@@ -193,6 +164,16 @@ function barSix(){
         <img class="wep${localStorage.getItem("Recycled Brella 24 Mk I")}" src="Weapons s3/Recycled Brella 24 Mk I.png" />
         <img class="wep${localStorage.getItem("Undercover Brella")}" src="Weapons s3/Undercover Brella.png" />
         <img class="wep${localStorage.getItem("Undercover Sorella Brella")}" src="Weapons s3/Undercover Sorella Brella.png" />
+        <img class="wep${localStorage.getItem("Big Swig Roller")}" src="Weapons s3/Big Swig Roller.png" />
+        <img class="wep${localStorage.getItem("Big Swig Roller Express")}" src="Weapons s3/Big Swig Roller Express.png" />
+        <img class="wep${localStorage.getItem("Carbon Roller")}" src="Weapons s3/Carbon Roller.png" />
+        <img class="wep${localStorage.getItem("Carbon Roller Deco")}" src="Weapons s3/Carbon Roller Deco.png" />
+        <img class="wep${localStorage.getItem("Dynamo Roller")}" src="Weapons s3/Dynamo Roller.png" />
+        <img class="wep${localStorage.getItem("Gold Dynamo Roller")}" src="Weapons s3/Gold Dynamo Roller.png" />
+        <img class="wep${localStorage.getItem("Splat Roller")}" src="Weapons s3/Splat Roller.png" />
+        <img class="wep${localStorage.getItem("Krak-On Splat Roller")}" src="Weapons s3/Krak-On Splat Roller.png" />
+        <img class="wep${localStorage.getItem("Flingza Roller")}" src="Weapons s3/Flingza Roller.png" />
+        <img class="wep${localStorage.getItem("Foil Flingza Roller")}" src="Weapons s3/Foil Flingza Roller.png" />
     `
 }
 
