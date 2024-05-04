@@ -184,7 +184,9 @@ function updateWep(){
 function saveLoss(){
     var currHealth = localStorage.getItem("health") - 1;
     localStorage.setItem("health", currHealth);
-    localStorage.setItem("regain", 5);
+    if(localStorage.getItem("health") == 2){
+        localStorage.setItem("regain", 5);
+    }
 }
 
 function updateHealth(){
