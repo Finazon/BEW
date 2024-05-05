@@ -9,7 +9,7 @@
     <div class="loss" id="loss">
       <center>
         <h1>GAME OVER</h1>
-        <input type="button" value="reset" style="padding:100px" onclick="resetTrack();localStorage.setItem('health', 3);localStorage.setItem('regain', 0);localStorage.setItem('remain', 120);document.getElementById('loss').style.width = '0px';document.getElementById('rmntxt').innerHTML = `${localStorage.getItem('remain')}`">
+        <input type="button" class="retry" onclick="resetTrack();localStorage.setItem('health', 3);localStorage.setItem('regain', 0);localStorage.setItem('remain', 120);document.getElementById('loss').style.width = '0px';document.getElementById('rmntxt').innerHTML = `${localStorage.getItem('remain')}`">
       </center>
     </div>
     <div class="base1">
