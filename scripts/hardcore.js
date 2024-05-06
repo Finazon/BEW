@@ -19,12 +19,12 @@ function saveLoss(){
 function updateHealth(){
     if(localStorage.getItem("health") == 1){
         document.getElementById("hearts").innerHTML = `
-        <img style="width:300px;height:auto;position:absolute;top:110px;left:105px" src="assets/heart1.png" />
+        <img style="width:300px;height:auto;position:absolute;top:130px;left:105px" src="assets/heart1.png" />
         `
     }
     else{
         document.getElementById("hearts").innerHTML = `
-        <img style="width:160px;height:auto;position:absolute;top:140px;left:50px" src="assets/heart2.png" />
+        <img style="width:160px;height:auto;position:absolute;top:130px;left:50px" src="assets/heart2.png" />
         `
         loss()
     }
