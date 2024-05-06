@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="main.css">
+  <script src="scripts/main.js"></script>
+  <script src="scripts/hardcore.js"></script>
+  <title>Spl Overlay BEW</title>
+</head>
+  <body>
+    <div class="loss" id="loss">
+      <center>
+        <h1>GAME OVER</h1>
+        <input type="button" class="retry" onclick="resetTrack();localStorage.setItem('health', 1);localStorage.setItem('remain', 120);document.getElementById('loss').style.width = '0px';document.getElementById('rmntxt').innerHTML = `${localStorage.getItem('remain')}`" value="retry?">
+      </center>
+    </div>
+    <div class="base1">
+      <div class="background">
+        <h1 id="rmntxt" style="color:white;font-family:Splatoon1;font-size:160px;position:absolute;left:7px;top:-180px"></h1>
+        <div />
+        <p style="color:white;font-family:Splatoon2;font-size:60px;position:absolute;left:19px;top:80px">REMAINING</p>
+        <p style="color:rgb(87, 186, 224);font-family:Splatoon2;font-size:30px;position:absolute;left:8px;top:659px">Created by @Finazon</p>
+        <p style="color:white;font-family:Splatoon1;font-size:100px;position:absolute;left:7px;top:584px">RULES:</p>
+        <p style="color:white;font-family:Splatoon2;font-size:45px;position:absolute;left:12px;top:784px">Must be done in SoloQ Open or X</p>
+        <p style="color:white;font-family:Splatoon2;font-size:45px;position:absolute;left:12px;top:864px">Must be done completely live</p>
+        <p style="color:white;font-family:Splatoon2;font-size:45px;position:absolute;left:12px;top:944px;">Win ONCE with EVERY weapon</p>
+        <div id="sidebar" class="sidebar">
+        </div>
+      </div>
+    </div>
+    <div class="base2">
+      <div class="background">
+        <input class="currbox" id="boxWep" type="text">
+        <input type="button" value=" " class="win" onclick="saveWin()">
+        <input type="button" value=" " class="lose" onclick="saveLoss()">
+        <input type="button" value=" " class="update" onclick="updateWep()">
+        <div id="currwep">
+        </div>
+        <div id="hearts">
+        </div>
+      </div>
+    </div>
+    <div class="base4">
+        <div class="background">
+  
+        </div>
+      </div>
+      <script>
+        start()
+      </script>
+  </body>
+</html>
