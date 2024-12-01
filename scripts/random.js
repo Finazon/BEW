@@ -9,6 +9,7 @@ function start(){
     blocks();
     updateHealth();
     updateMana();
+    updateWep2();
     document.getElementById("rmntxt").innerHTML = `${localStorage.getItem("remain")}`
 }
 
@@ -18,6 +19,7 @@ function saveLoss(){
     if(localStorage.getItem("health") == 2){
         localStorage.setItem("regain", 5);
     }
+    updateWep2()
 }
 
 function updateHealth(){
@@ -123,7 +125,8 @@ function updateMana(){
 }
 
 function saveWin(){
-    var Weapon = document.getElementById('boxWep').value
+    var Weapons = JSON.parse(localStorage.getItem("weaponjoy"))
+    var Weapon = localStorage.getItem("randomjoy")
     if(Weapon == "RESET"){
         resetTrack();
         localStorage.setItem('health', 3);
@@ -131,9 +134,10 @@ function saveWin(){
         localStorage.setItem('remain', 130);
         document.getElementById('loss').style.width = '0px';
         document.getElementById('rmntxt').innerHTML = `${localStorage.getItem('remain')}`
+        updateWep2()
     }
     else {
-        localStorage.setItem(Weapon, "2");
+        localStorage.setItem(Weapons[Weapon], "2");
         var left = localStorage.getItem("remain") - 1;
         localStorage.setItem("remain", left);
         document.getElementById("rmntxt").innerHTML = `${localStorage.getItem("remain")}`
@@ -141,5 +145,13 @@ function saveWin(){
             var mana = localStorage.getItem("regain") - 1;
             localStorage.setItem("regain", mana);
         }
+        Weapons.splice(Weapon, 1)
+        localStorage.setItem("weaponjoy", JSON.stringify(Weapons));
+        updateWep2()
     }
+}
+
+function resetBEW(){
+    localStorage.setItem("randomjoy", "RESET")
+    saveWin()
 }

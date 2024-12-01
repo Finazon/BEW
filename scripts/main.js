@@ -53,6 +53,8 @@ function barOne(){
         <img class="wep${localStorage.getItem("Splatana Stamper Nouveau")}" src="Weapons s3/Splatana Stamper Nouveau.png" />
         <img class="wep${localStorage.getItem("Splatana Wiper")}" src="Weapons s3/Splatana Wiper.png" />
         <img class="wep${localStorage.getItem("Splatana Wiper Deco")}" src="Weapons s3/Splatana Wiper Deco.png" />
+        <img class="wep${localStorage.getItem("Mint Decavitator")}" src="Weapons s3/Mint Decavitator.png" />
+        <img class="wep${localStorage.getItem("Charcoal Decavitator")}" src="Weapons s3/Charcoal Decavitator.png" />
     `
 }
 
@@ -66,13 +68,15 @@ function barTwo(){
         <img class="wep${localStorage.getItem("Luna Blaster")}" src="Weapons s3/Luna Blaster.png" />
         <img class="wep${localStorage.getItem("Luna Blaster Neo")}" src="Weapons s3/Luna Blaster Neo.png" />
         <img class="wep${localStorage.getItem("Range Blaster")}" src="Weapons s3/Range Blaster.png" />
+        <img class="wep${localStorage.getItem("Custom Range Blaster")}" src="Weapons s3/Custom Range Blaster.png" />
         <img class="wep${localStorage.getItem("Rapid Blaster")}" src="Weapons s3/Rapid Blaster.png" />
         <img class="wep${localStorage.getItem("Rapid Blaster Deco")}" src="Weapons s3/Rapid Blaster Deco.png" />
         <img class="wep${localStorage.getItem("Rapid Blaster Pro")}" src="Weapons s3/Rapid Blaster Pro.png" />
         <img class="wep${localStorage.getItem("Rapid Blaster Pro Deco")}" src="Weapons s3/Rapid Blaster Pro Deco.png" />
         <img class="wep${localStorage.getItem("S-Blast '92")}" src="Weapons s3/S-Blast '92.png" />
         <img class="wep${localStorage.getItem("S-Blast '91")}" src="Weapons s3/S-Blast '91.png" />
-        <img class="wep${localStorage.getItem("Bamboozler 14 Mk 1")}" src="Weapons s3/Bamboozler 14 Mk 1.png" />
+        <img class="wep${localStorage.getItem("Bamboozler 14 Mk I")}" src="Weapons s3/Bamboozler 14 Mk I.png" />
+        <img class="wep${localStorage.getItem("Bamboozler 14 Mk II")}" src="Weapons s3/Bamboozler 14 Mk II.png" />
         <img class="wep${localStorage.getItem("Classic Squiffer")}" src="Weapons s3/Classic Squiffer.png" />
         <img class="wep${localStorage.getItem("New Squiffer")}" src="Weapons s3/New Squiffer.png" />
         <img class="wep${localStorage.getItem("Goo Tuber")}" src="Weapons s3/Goo Tuber.png" />
@@ -98,7 +102,9 @@ function barTre(){
         <img class="wep${localStorage.getItem("Heavy Splatling")}" src="Weapons s3/Heavy Splatling.png" />
         <img class="wep${localStorage.getItem("Heavy Splatling Deco")}" src="Weapons s3/Heavy Splatling Deco.png" />
         <img class="wep${localStorage.getItem("Heavy Edit Splatling")}" src="Weapons s3/Heavy Edit Splatling.png" />
+        <img class="wep${localStorage.getItem("Heavy Edit Splatling Nouveau")}" src="Weapons s3/Heavy Edit Splatling Nouveau.png" />
         <img class="wep${localStorage.getItem("Hydra Splatling")}" src="Weapons s3/Hydra Splatling.png" />
+        <img class="wep${localStorage.getItem("Custom Hydra Splatling")}" src="Weapons s3/Custom Hydra Splatling.png" />
         <img class="wep${localStorage.getItem("Mini Splatling")}" src="Weapons s3/Mini Splatling.png" />
         <img class="wep${localStorage.getItem("Zink Mini Splatling")}" src="Weapons s3/Zink Mini Splatling.png" />
         <img class="wep${localStorage.getItem("Nautilus 47")}" src="Weapons s3/Nautilus 47.png" />
@@ -107,6 +113,8 @@ function barTre(){
         <img class="wep${localStorage.getItem("REEF-LUX 450 Deco")}" src="Weapons s3/REEF-LUX 450 Deco.png" />
         <img class="wep${localStorage.getItem("Tri-Stringer")}" src="Weapons s3/Tri-Stringer.png" />
         <img class="wep${localStorage.getItem("Inkline Tri-Stringer")}" src="Weapons s3/Inkline Tri-Stringer.png" />
+        <img class="wep${localStorage.getItem("Wellstring V")}" src="Weapons s3/Wellstring V.png" />
+        <img class="wep${localStorage.getItem("Custom Wellstring V")}" src="Weapons s3/Custom Wellstring V.png" />
         <img class="wep${localStorage.getItem("Bloblobber")}" src="Weapons s3/Bloblobber.png" />
         <img class="wep${localStorage.getItem("Bloblobber Deco")}" src="Weapons s3/Bloblobber Deco.png" />
         <img class="wep${localStorage.getItem("Dread Wringer")}" src="Weapons s3/Dread Wringer.png" />
@@ -136,6 +144,7 @@ function barFor(){
         <img class="wep${localStorage.getItem("Dark Tetra Dualies")}" src="Weapons s3/Dark Tetra Dualies.png" />
         <img class="wep${localStorage.getItem("Light Tetra Dualies")}" src="Weapons s3/Light Tetra Dualies.png" />
         <img class="wep${localStorage.getItem("Douser Dualies FF")}" src="Weapons s3/Douser Dualies FF.png" />
+        <img class="wep${localStorage.getItem("Custom Douser Dualies FF")}" src="Weapons s3/Custom Douser Dualies FF.png" />
         <img class="wep${localStorage.getItem("Glooga Dualies")}" src="Weapons s3/Glooga Dualies.png" />
         <img class="wep${localStorage.getItem("Glooga Deco Deco")}" src="Weapons s3/Glooga Deco Deco.png" />
         <img class="wep${localStorage.getItem("Splat Dualies")}" src="Weapons s3/Splat Dualies.png" />
@@ -147,6 +156,7 @@ function barFor(){
         <img class="wep${localStorage.getItem("Tenta Brella")}" src="Weapons s3/Tenta Brella.png" />
         <img class="wep${localStorage.getItem("Tenta Sorella Brella")}" src="Weapons s3/Tenta Sorella Brella.png" />
         <img class="wep${localStorage.getItem("Recycled Brella 24 Mk I")}" src="Weapons s3/Recycled Brella 24 Mk I.png" />
+        <img class="wep${localStorage.getItem("Recycled Brella 24 Mk II")}" src="Weapons s3/Recycled Brella 24 Mk II.png" />
         <img class="wep${localStorage.getItem("Undercover Brella")}" src="Weapons s3/Undercover Brella.png" />
         <img class="wep${localStorage.getItem("Undercover Sorella Brella")}" src="Weapons s3/Undercover Sorella Brella.png" />
         <img class="wep${localStorage.getItem("Big Swig Roller")}" src="Weapons s3/Big Swig Roller.png" />
@@ -167,12 +177,30 @@ function updateWep(){
     document.getElementById("currwep").innerHTML = `<img style="width:360px;height:auto;position:absolute;top:10px;left:470px" src="Weapons s3/${Weapon}.png" />`
 }
 
+function updateWep2(){
+    var Weapons = JSON.parse(localStorage.getItem("weaponjoy"))
+    var Weapon = Math.floor(Math.random() * Weapons.length)
+    localStorage.setItem("randomjoy", Weapon)
+    document.getElementById("boxwep").innerHTML = `${Weapons[Weapon]}`
+    document.getElementById("currwep").innerHTML = `<img style="width:360px;height:auto;position:absolute;top:10px;left:470px" src="Weapons s3/${Weapons[Weapon]}.png" />`
+}
+
 function loss(){
     document.getElementById("loss").style.width = "1920px";
 }
 
 function resetTrack(){
     localStorage.setItem("WEAPON", "1")
+    localStorage.setItem("Custom Hydra Splatling", "1")
+    localStorage.setItem("Bamboozler 14 Mk II", "1")
+    localStorage.setItem("Heavy Edit Splatling Nouveau", "1")
+    localStorage.setItem("Custom Douser Dualies FF", "1")
+    localStorage.setItem("Recycled Brella 24 Mk II", "1")
+    localStorage.setItem("Wellstring V", "1")
+    localStorage.setItem("Custom Wellstring V", "1")
+    localStorage.setItem("Mint Decavitator", "1")
+    localStorage.setItem("Charcoal Decavitator", "1")
+    localStorage.setItem("Custom Range Blaster", "1")
     localStorage.setItem("52 Gal Deco", "1")
     localStorage.setItem("52 Gal", "1")
     localStorage.setItem("96 Gal Deco", "1")
@@ -182,7 +210,7 @@ function resetTrack(){
     localStorage.setItem("Annaki Splattershot Nova", "1")
     localStorage.setItem("Ballpoint Splatling Nouveau", "1")
     localStorage.setItem("Ballpoint Splatling", "1")
-    localStorage.setItem("Bamboozler 14 Mk 1", "1")
+    localStorage.setItem("Bamboozler 14 Mk I", "1")
     localStorage.setItem("Big Swig Roller Express", "1")
     localStorage.setItem("Big Swig Roller", "1")
     localStorage.setItem("Blaster", "1")
@@ -293,6 +321,139 @@ function resetTrack(){
     localStorage.setItem("Z+F Splat Charger", "1")
     localStorage.setItem("Z+F Splatterscope", "1")
     localStorage.setItem("Zink Mini Splatling", "1")
+    var Weapons = [
+        "52 Gal Deco",
+        "52 Gal",
+        "96 Gal Deco",
+        "96 Gal",
+        "Aerospray MG",
+        "Aerospray RG",
+        "Annaki Splattershot Nova",
+        "Ballpoint Splatling Nouveau",
+        "Ballpoint Splatling",
+        "Bamboozler 14 Mk I",
+        "Bamboozler 14 Mk II",
+        "Big Swig Roller Express",
+        "Big Swig Roller",
+        "Blaster",
+        "Bloblobber Deco",
+        "Bloblobber",
+        "Carbon Roller Deco",
+        "Carbon Roller",
+        "Charcoal Decavitator",
+        "Clash Blaster Neo",
+        "Clash Blaster",
+        "Classic Squiffer",
+        "Custom Blaster",
+        "Custom Douser Dualies FF",
+        "Custom Dualie Squelchers",
+        "Custom E-Liter 4K Scope",
+        "Custom E-Liter 4K",
+        "Custom Explosher",
+        "Custom Goo Tuber",
+        "Custom Hydra Splatling",
+        "Custom Jet Squelcher",
+        "Custom Range Blaster",
+        "Custom Splattershot Jr.",
+        "Custom Wellstring V",
+        "Dapple Dualies Nouveau",
+        "Dapple Dualies",
+        "Dark Tetra Dualies",
+        "Douser Dualies FF",
+        "Dread Wringer D",
+        "Dread Wringer",
+        "Dualie Squelchers",
+        "Dynamo Roller",
+        "E-Liter 4K Scope",
+        "E-Liter 4K",
+        "Enperry Splat Dualies",
+        "Explosher",
+        "Flingza Roller",
+        "Foil Flingza Roller",
+        "Foil Squeezer",
+        "Forge Splattershot Pro",
+        "Glooga Deco Deco",
+        "Glooga Dualies",
+        "Gold Dynamo Roller",
+        "Goo Tuber",
+        "H-3 Nozzlenose D",
+        "H-3 Nozzlenose",
+        "Heavy Edit Splatling Nouveau",
+        "Heavy Edit Splatling",
+        "Heavy Splatling Deco",
+        "Heavy Splatling",
+        "Hydra Splatling",
+        "Inkbrush Nouveau",
+        "Inkbrush",
+        "Inkline Tri-Stringer",
+        "Jet Squelcher",
+        "Krak-On Splat Roller",
+        "L-3 Nozzlenose D",
+        "L-3 Nozzlenose",
+        "Light Tetra Dualies",
+        "Luna Blaster Neo",
+        "Luna Blaster",
+        "Mini Splatling",
+        "Mint Decavitator",
+        "N-ZAP 85",
+        "N-ZAP 89",
+        "Nautilus 47",
+        "Nautilus 79",
+        "Neo Splash-O-Matic",
+        "Neo Sploosh-O-Matic",
+        "New Squiffer",
+        "Octobrush Nouveau",
+        "Octobrush",
+        "Painbrush Nouveau",
+        "Painbrush",
+        "Range Blaster",
+        "Rapid Blaster Deco",
+        "Rapid Blaster Pro Deco",
+        "Rapid Blaster Pro",
+        "Rapid Blaster",
+        "Recycled Brella 24 Mk I",
+        "Recycled Brella 24 Mk II",
+        "REEF-LUX 450 Deco",
+        "REEF-LUX 450",
+        "S-Blast '91",
+        "S-Blast '92",
+        "Slosher Deco",
+        "Slosher",
+        "Sloshing Machine Neo",
+        "Sloshing Machine",
+        "Snipewriter 5B",
+        "Snipewriter 5H",
+        "Sorella Brella",
+        "Splash-O-Matic",
+        "Splat Brella",
+        "Splat Charger",
+        "Splat Dualies",
+        "Splat Roller",
+        "Splatana Stamper Nouveau",
+        "Splatana Stamper",
+        "Splatana Wiper Deco",
+        "Splatana Wiper",
+        "Splatterscope",
+        "Splattershot Jr.",
+        "Splattershot Nova",
+        "Splattershot Pro",
+        "Splattershot",
+        "Sploosh-O-Matic",
+        "Squeezer",
+        "Tenta Brella",
+        "Tenta Sorella Brella",
+        "Tentatek Splattershot",
+        "Tri-Slosher Nouveau",
+        "Tri-Slosher",
+        "Tri-Stringer",
+        "Undercover Brella",
+        "Undercover Sorella Brella",
+        "Wellstring V",
+        "Z+F Splat Charger",
+        "Z+F Splatterscope",
+        "Zink Mini Splatling",
+    ]
+    localStorage.setItem("weaponjoy", JSON.stringify(Weapons));
 }
 
 function openbar() {

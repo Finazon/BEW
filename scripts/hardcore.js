@@ -3,7 +3,7 @@ function start(){
         resetTrack();
         localStorage.setItem("health", 3)
         localStorage.setItem("regain", 0)
-        localStorage.setItem("remain", 120)
+        localStorage.setItem("remain", 130)
         document.getElementById("loss").style.width = "0px";
     }
     blocks();
@@ -36,7 +36,7 @@ function saveWin(){
     if(Weapon == "RESET"){
         resetTrack();
         localStorage.setItem('health', 1);
-        localStorage.setItem('remain', 120);
+        localStorage.setItem('remain', 130);
         document.getElementById('loss').style.width = '0px';
         document.getElementById('rmntxt').innerHTML = `${localStorage.getItem('remain')}`
     }
