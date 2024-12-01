@@ -146,7 +146,7 @@ function barFor(){
         <img class="wep${localStorage.getItem("Douser Dualies FF")}" src="Weapons s3/Douser Dualies FF.png" />
         <img class="wep${localStorage.getItem("Custom Douser Dualies FF")}" src="Weapons s3/Custom Douser Dualies FF.png" />
         <img class="wep${localStorage.getItem("Glooga Dualies")}" src="Weapons s3/Glooga Dualies.png" />
-        <img class="wep${localStorage.getItem("Glooga Deco Deco")}" src="Weapons s3/Glooga Deco Deco.png" />
+        <img class="wep${localStorage.getItem("Glooga Dualies Deco")}" src="Weapons s3/Glooga Dualies Deco.png" />
         <img class="wep${localStorage.getItem("Splat Dualies")}" src="Weapons s3/Splat Dualies.png" />
         <img class="wep${localStorage.getItem("Enperry Splat Dualies")}" src="Weapons s3/Enperry Splat Dualies.png" />
         <img class="wep${localStorage.getItem("Dualie Squelchers")}" src="Weapons s3/Dualie Squelchers.png" />
@@ -172,17 +172,24 @@ function barFor(){
     `
 }
 
-function updateWep(){
-    var Weapon = document.getElementById('boxWep').value
-    document.getElementById("currwep").innerHTML = `<img style="width:360px;height:auto;position:absolute;top:10px;left:470px" src="Weapons s3/${Weapon}.png" />`
-}
-
-function updateWep2(){
-    var Weapons = JSON.parse(localStorage.getItem("weaponjoy"))
-    var Weapon = Math.floor(Math.random() * Weapons.length)
-    localStorage.setItem("randomjoy", Weapon)
-    document.getElementById("boxwep").innerHTML = `${Weapons[Weapon]}`
-    document.getElementById("currwep").innerHTML = `<img style="width:360px;height:auto;position:absolute;top:10px;left:470px" src="Weapons s3/${Weapons[Weapon]}.png" />`
+function updateWep(type){
+    if(type == 1){
+        var Weapon = document.getElementById('boxWep').value
+        document.getElementById("currwep").innerHTML = `<img style="width:360px;height:auto;position:absolute;top:10px;left:470px" src="Weapons s3/${Weapon}.png" />`
+    }
+    else if(type == 2){
+        var Weapons = JSON.parse(localStorage.getItem("weaponjoy"))
+        var Weapon = Math.floor(Math.random() * Weapons.length)
+        localStorage.setItem("randomjoy", Weapon)
+        document.getElementById("boxwep").innerHTML = `${Weapons[Weapon]}`
+        document.getElementById("currwep").innerHTML = `<img style="width:360px;height:auto;position:absolute;top:10px;left:470px" src="Weapons s3/${Weapons[Weapon]}.png" />`    
+    }
+    else if(type == 3){
+        var Weapons = JSON.parse(localStorage.getItem("weaponjoy"))
+        var Weapon = localStorage.getItem("randomjoy")
+        document.getElementById("boxwep").innerHTML = `${Weapons[Weapon]}`
+        document.getElementById("currwep").innerHTML = `<img style="width:360px;height:auto;position:absolute;top:10px;left:470px" src="Weapons s3/${Weapons[Weapon]}.png" />`
+    }
 }
 
 function loss(){
@@ -245,7 +252,7 @@ function resetTrack(){
     localStorage.setItem("Foil Flingza Roller", "1")
     localStorage.setItem("Foil Squeezer", "1")
     localStorage.setItem("Forge Splattershot Pro", "1")
-    localStorage.setItem("Glooga Deco Deco", "1")
+    localStorage.setItem("Glooga Dualies Deco", "1")
     localStorage.setItem("Glooga Dualies", "1")
     localStorage.setItem("Gold Dynamo Roller", "1")
     localStorage.setItem("Goo Tuber", "1")
@@ -372,7 +379,7 @@ function resetTrack(){
         "Foil Flingza Roller",
         "Foil Squeezer",
         "Forge Splattershot Pro",
-        "Glooga Deco Deco",
+        "Glooga Dualies Deco",
         "Glooga Dualies",
         "Gold Dynamo Roller",
         "Goo Tuber",
