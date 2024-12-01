@@ -9,7 +9,7 @@ function start(){
     blocks();
     updateHealth();
     updateMana();
-    updateWep2();
+    updateWep("3")
     document.getElementById("rmntxt").innerHTML = `${localStorage.getItem("remain")}`
 }
 
@@ -19,7 +19,7 @@ function saveLoss(){
     if(localStorage.getItem("health") == 2){
         localStorage.setItem("regain", 5);
     }
-    updateWep2()
+    updateWep("2")
 }
 
 function updateHealth(){
@@ -134,7 +134,7 @@ function saveWin(){
         localStorage.setItem('remain', 130);
         document.getElementById('loss').style.width = '0px';
         document.getElementById('rmntxt').innerHTML = `${localStorage.getItem('remain')}`
-        updateWep2()
+        updateWep("2")
     }
     else {
         localStorage.setItem(Weapons[Weapon], "2");
@@ -147,7 +147,7 @@ function saveWin(){
         }
         Weapons.splice(Weapon, 1)
         localStorage.setItem("weaponjoy", JSON.stringify(Weapons));
-        updateWep2()
+        updateWep("2")
     }
 }
 
