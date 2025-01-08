@@ -89,7 +89,8 @@ function updateMana(){
         document.getElementById("regain").innerHTML = `
         <img style="width:100px;height:auto;position:absolute;top:280px;left:20px" src="assets/mana1.png" />
         <img style="width:100px;height:auto;position:absolute;top:280px;left:110px" src="assets/mana1.png" />
-        <img style="width:100px;height:auto;position:absolute;top:280px;left:200px" src="assets/mana1.png" />
+        <img style="width:100px;heigh
+        t:auto;position:absolute;top:280px;left:200px" src="assets/mana1.png" />
         <img style="width:100px;height:auto;position:absolute;top:280px;left:290px" src="assets/mana2.png" />
         <img style="width:100px;height:auto;position:absolute;top:280px;left:380px" src="assets/mana2.png" />
         `
@@ -139,15 +140,20 @@ function saveWin(){
     else {
         localStorage.setItem(Weapons[Weapon], "2");
         var left = localStorage.getItem("remain") - 1;
-        localStorage.setItem("remain", left);
-        document.getElementById("rmntxt").innerHTML = `${localStorage.getItem("remain")}`
-        if(localStorage.getItem("health") < 3){
-            var mana = localStorage.getItem("regain") - 1;
-            localStorage.setItem("regain", mana);
+        if(left == 0){
+            document.body.innerHTML = `u win yay`
         }
-        Weapons.splice(Weapon, 1)
-        localStorage.setItem("weaponjoy", JSON.stringify(Weapons));
-        updateWep("2")
+        else{
+            localStorage.setItem("remain", left);
+            document.getElementById("rmntxt").innerHTML = `${localStorage.getItem("remain")}`
+            if(localStorage.getItem("health") < 3){
+                var mana = localStorage.getItem("regain") - 1;
+                localStorage.setItem("regain", mana);
+            }
+            Weapons.splice(Weapon, 1)
+            localStorage.setItem("weaponjoy", JSON.stringify(Weapons));
+            updateWep("2")
+        }
     }
 }
 
